@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../headers/lexical/in.h
+sys/types.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/mnt/c/C_C++/norminette/main.c
+stdio.h
+-
+sys/statvfs.h
+-
+lexical/in.h
+-
+stdlib.h
+-
+
